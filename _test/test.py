@@ -17,8 +17,15 @@ name = exe.replace(".\bin", "").replace("bin/", "").replace('"\"', "").replace("
 src = getsrcname(name)
 name = name.replace(f"_{src}", "")
 test_path = f"./{src}/{name}.test.json"
-test_file = open(test_path)
-test = json.load(test_file)
+test = None
+
+try:
+    with open(test_path) as test_file:
+        test = json.load(test_file)
+except:
+    print("Error while opening test file!")
+    sys.exit(1)
+
 
 def run(inp):
     process = subprocess.Popen([exe], stdin=subprocess.PIPE, stdout=subprocess.PIPE)
