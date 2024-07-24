@@ -1,0 +1,18 @@
+{
+    "memLimit": 0,
+    "timeLimit": 0,
+    "cases": [
+        {
+            "input": "18\n175\n65\nA",
+            "expect": "suspect's age : 18\nsuspect's height : 175.00\nsuspect's weight : 65.00\nsuspect's blood group : A\n"
+        },
+        {
+            "input": "23\n186\n72.98\nO",
+            "expect": "suspect's age : 23\nsuspect's height : 186.00\nsuspect's weight : 72.98\nsuspect's blood group : O\n"
+        },
+        {
+            "input": "50\n205.6\n89\nB",
+            "expect": "suspect's age : 50\nsuspect's height : 205.60\nsuspect's weight : 89.00\nsuspect's blood group : B\n"
+        }
+    ]
+}

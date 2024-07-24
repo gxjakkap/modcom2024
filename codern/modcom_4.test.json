@@ -1,0 +1,14 @@
+{
+    "memLimit": 0,
+    "timeLimit": 0,
+    "cases": [
+        {
+            "input": "17 23 41 39 60",
+            "expect": "36.00"
+        },
+        {
+            "input": "60 59 55 55 57",
+            "expect": "57.20"
+        }
+    ]
+}

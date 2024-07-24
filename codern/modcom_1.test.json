@@ -1,0 +1,10 @@
+{
+    "memLimit": 128000,
+    "timeLimit": 15000,
+    "cases": [
+        {
+            "input": "",
+            "expect": "CPE38"
+        }
+    ]
+}

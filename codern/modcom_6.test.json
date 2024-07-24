@@ -1,0 +1,22 @@
+{
+    "memLimit": 0,
+    "timeLimit": 0,
+    "cases": [
+        {
+            "input": "5+3",
+            "expect": "8.00"
+        },
+        {
+            "input": "10-4",
+            "expect": "6.00"
+        },
+        {
+            "input": "7*6",
+            "expect": "42.00"
+        },
+        {
+            "input": "9/3",
+            "expect": "3.00"
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+{
+    "memLimit": 0,
+    "timeLimit": 0,
+    "cases": [
+        {
+            "input": "O\n160\n62",
+            "expect": "Yes"
+        },
+        {
+            "input": "O\n179\n64",
+            "expect": "No"
+        },
+        {
+            "input": "A\n180\n60",
+            "expect": "No"
+        }
+    ]
+}
