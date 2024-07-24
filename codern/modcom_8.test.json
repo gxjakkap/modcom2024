@@ -3,8 +3,16 @@
     "timeLimit": 0,
     "cases": [
         {
-            "input": "",
-            "expect": ""
+            "input": "240 4 3",
+            "expect": "180"
+        },
+        {
+            "input": "1000 5 7",
+            "expect": "1400"
+        },
+        {
+            "input": "360 3 2",
+            "expect": "240"
         }
     ]
 }

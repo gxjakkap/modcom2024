@@ -3,8 +3,24 @@
     "timeLimit": 0,
     "cases": [
         {
-            "input": "",
-            "expect": ""
+            "input": "15 5 20",
+            "expect": "+"
+        },
+        {
+            "input": "25 7 18",
+            "expect": "-"
+        },
+        {
+            "input": "13 11 143",
+            "expect": "*"
+        },
+        {
+            "input": "144 12 12",
+            "expect": "/"
+        },
+        {
+            "input": "2.5 7.5 10",
+            "expect": "+"
         }
     ]
 }
