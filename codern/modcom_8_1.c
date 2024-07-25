@@ -2,11 +2,11 @@
 #include <string.h>
 
 int main(){
-    char c[100], k[100];
+    char c[100], k[26];
     //char a[] = {"ABCDEFGHIJKLMNOPQRSTUVWXYZ"};
     char a[] = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '\0'};
-    scanf("%s", &c);
-    scanf("%s", &k);
+    fgets(c, sizeof(c), stdin);
+    fgets(k, sizeof(k), stdin);
 
     for (int i = 0; i < strlen(c); i++){
         int j;
