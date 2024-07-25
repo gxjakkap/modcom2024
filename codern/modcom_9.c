@@ -44,6 +44,7 @@ int main(){
     if (i == l){
         printf("0\n");
     }
+    
     else {
         for (; i < l; i++){
             printf("%d", r[i]);

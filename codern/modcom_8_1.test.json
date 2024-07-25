@@ -1,0 +1,18 @@
+{
+    "memLimit": 0,
+    "timeLimit": 0,
+    "cases": [
+        {
+            "input": "GSV NFIWVIVI RH 32 BVZIH LOW.\nZYXWVUTSRQPONMLKJIHGFEDCBA",
+            "expect": "THE MURDERER IS 32 YEARS OLD."
+        },
+        {
+            "input": "ZGGZXP ZG WZDM LM GSV 15GS.\nZYXWVUTSRQPONMLKJIHGFEDCBA",
+            "expect": "ATTACK AT DAWN ON THE 15TH."
+        },
+        {
+            "input": "ZIT VTQHGF OL Q 7DD IQFRUXF.\nQWERTYUIOPASDFGHJKLZXCVBNM",
+            "expect": "THE WEAPON IS A 7MM HANDGUN."
+        }
+    ]
+}

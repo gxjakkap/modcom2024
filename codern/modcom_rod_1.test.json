@@ -1,0 +1,26 @@
+{
+    "memLimit": 0,
+    "timeLimit": 0,
+    "cases": [
+        {
+            "input": "0",
+            "expect": "1"
+        },
+        {
+            "input": "1",
+            "expect": "1"
+        },
+        {
+            "input": "5",
+            "expect": "120"
+        },
+        {
+            "input": "3",
+            "expect": "6"
+        },
+        {
+            "input": "10",
+            "expect": "3628800"
+        }
+    ]
+}

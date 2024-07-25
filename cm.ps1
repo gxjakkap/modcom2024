@@ -36,7 +36,7 @@ if (-not (Test-Path -Path "./bin")){
 } #>
 if (($ext -eq "c")){
     if (Test-Path -Path "$dir/$name.c" -PathType Leaf){
-        $compileCommand = "gcc `"$($dir)\$($name).c`" -o `".\bin\$($name)_$($src)`""
+        $compileCommand = "gcc `"$($dir)\$($name).c`" -o `".\bin\$($name)_$($src).exe`""
         Write-Host "Compiling with command: $compileCommand"
         
         Invoke-Expression -Command $compileCommand -ErrorAction Stop

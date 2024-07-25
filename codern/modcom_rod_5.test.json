@@ -1,0 +1,30 @@
+{
+    "memLimit": 0,
+    "timeLimit": 0,
+    "cases": [
+        {
+            "input": "255 255 255",
+            "expect": "#FFFFFF"
+        },
+        {
+            "input": "0 0 0",
+            "expect": "#000000"
+        },
+        {
+            "input": "192 0 0",
+            "expect": "#C00000"
+        },
+        {
+            "input": "31 128 255",
+            "expect": "#1F80FF"
+        },
+        {
+            "input": "74 156 11",
+            "expect": "#4A9C0B"
+        },
+        {
+            "input": "111 112 101",
+            "expect": "#6F7065"
+        }
+    ]
+}

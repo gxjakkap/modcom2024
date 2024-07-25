@@ -1,0 +1,30 @@
+{
+    "memLimit": 0,
+    "timeLimit": 0,
+    "cases": [
+        {
+            "input": "C\nC\nC\nC",
+            "expect": "C"
+        },
+        {
+            "input": "KFC\nKfC\nkfc\nkFC",
+            "expect": "Kfc"
+        },
+        {
+            "input": "PROGrAM\nPROGRAm\nPROGRAMMING\nPROgRaM",
+            "expect": "Program"
+        },
+        {
+            "input": "extern\nExtern\nIntern\nuturn",
+            "expect": "Extern"
+        },
+        {
+            "input": "extern\nExtern\nExtern\nExtern",
+            "expect": "Extern"
+        },
+        {
+            "input": "Ethernet\nInternet\nLan\nLan",
+            "expect": "Lan"
+        }
+    ]
+}
