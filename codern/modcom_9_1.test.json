@@ -1,0 +1,26 @@
+{
+    "memLimit": 0,
+    "timeLimit": 0,
+    "cases": [
+        {
+            "input": "3\n0812345678\n0898765432\n2024-07-20\n12:30\n0898765432\n0812345678\n2024-07-20\n13:45\n0812345678\n0811111111\n2024-07-21\n14:00\n0812345678\n2024-07-20\n12:00\n14:00",
+            "expect": "Suspect who called the victim at the incident time:\nIncoming: 0812345678, Outgoing: 0898765432, Date: 2024-07-20, Time: 12:30\nIncoming: 0898765432, Outgoing: 0812345678, Date: 2024-07-20, Time: 13:45"
+        },
+        {
+            "input": "1\n0819999999\n0812345678\n2024-07-20\n12:00\n0812345678\n2024-07-20\n12:30\n13:30",
+            "expect": "Suspect who called the victim at the incident time:\nnone"
+        },
+        {
+            "input": "1\n0819999999\n0812345678\n2024-07-20\n12:00\n1\n0819992799\n0812345678\n2024-07-20\n00:00\n1\n0819991429\n0812345678\n2024-07-20\n12:33\n0812345678\n2024-07-20\n12:30\n13:30",
+            "expect": "Suspect who called the victim at the incident time:\nnone"
+        },
+        {
+            "input": "1\n0819999999\n0812345678\n2024-07-19\n12:30\n1\n0819992799\n0812345678\n2024-07-20\n00:00\n1\n0819991429\n0812345678\n2024-07-20\n12:33\n0812345678\n2024-07-20\n12:30\n13:30",
+            "expect": "Suspect who called the victim at the incident time:\nnone"
+        },
+        {
+            "input": "1\n0819999999\n0812345678\n2024-07-20\n08:32\n0812345678\n2024-07-20\n08:30\n09:30",
+            "expect": "Suspect who called the victim at the incident time:\nIncoming: 0819999999, Outgoing: 0812345678, Date: 2024-07-20, Time: 08:32"
+        }
+    ]
+}

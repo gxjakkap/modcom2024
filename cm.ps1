@@ -45,7 +45,7 @@ if (($ext -eq "c")){
             throw "Error compiling $name. Check the source code for errors."
         }
         else {
-            Write-Host "`"$name.$ext compiled successfully! binary at bin/$($name)_$($src)"
+            Write-Host "$name.$ext compiled successfully! binary at bin/$($name)_$($src)"
         }
     }
     else {
