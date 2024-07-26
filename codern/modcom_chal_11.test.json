@@ -1,0 +1,22 @@
+{
+    "memLimit": 0,
+    "timeLimit": 0,
+    "cases": [
+        {
+            "input": "2",
+            "expect": "10000"
+        },
+        {
+            "input": "3",
+            "expect": "22500"
+        },
+        {
+            "input": "4",
+            "expect": "37500"
+        },
+        {
+            "input": "10000",
+            "expect": "125062492500"
+        }
+    ]
+}

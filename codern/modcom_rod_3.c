@@ -2,9 +2,12 @@
 
 int main(){
     int n;
-    float p;
+    float p = 1;
     scanf("%d", &n);
-    p = 1 / (n * 6.0000000000);
-    printf("%.10f", p);
+    for (int i = 0; i<n; i++){
+        p *= 6;
+    }
+    //printf("%f\n", p);
+    printf("%.10f", (1.00 / p));
     return 0;
 }

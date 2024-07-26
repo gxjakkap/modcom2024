@@ -14,11 +14,11 @@ int main(){
         }
         b[strlen(a) -1] = '\0';
         if (strcmp(a, b) == 0){
-            printf("ใช่");
+            printf("yes");
             if (n != 1) printf("\n");
         }
         else {
-            printf("ไม่ใช่");
+            printf("no");
             if (n != 1) printf("\n");
         }
         n--;

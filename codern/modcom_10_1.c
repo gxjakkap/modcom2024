@@ -2,20 +2,21 @@
 #include <stdlib.h>
 
 int cmpAsc(const void* a, const void* b) {
-   return (*(int*)a - *(int*)b);
+   return (*(long long*)a - *(long long*)b);
 }
 
 int cmpDes(const void* a, const void* b) {
-   return (*(int*)b - *(int*)a);
+   return (*(long long*)b - *(long long*)a);
 }
 
 int main(){
-    int m, t, x[20], i = 0;
+    int t, x[20];
+    int i = 0, m;
     
     scanf("%d", &m);
 
     while (1){
-        scanf("%d", &t);
+        scanf("%lld", &t);
         if (t == 911){
             break;
         }
@@ -31,8 +32,6 @@ int main(){
         }
     }
 
-    /* int s = sizeof(x) / sizeof(x[0]); */
-
     if (m == 3 || m == 4){
         if (m == 3){
             qsort(x, i, sizeof(int), cmpAsc);
@@ -47,7 +46,7 @@ int main(){
     }
 
     for (int j = 0; j < i; j++){
-        printf("%d", x[j]);
+        printf("%lld", x[j]);
         if (j != i-1) printf(" ");
     }
 
